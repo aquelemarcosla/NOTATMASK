@@ -2,6 +2,6 @@
 const nextConfig = {}
 
 module.exports = {
-    nextconfig,
+    ...nextConfig,
     target: 'serverless',
 }

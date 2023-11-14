@@ -6,7 +6,7 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: '/alguma-coisa',
+        source: '/pagenotfound',
         destination: '/',
       },
     ]

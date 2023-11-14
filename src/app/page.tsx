@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Header from "./components/Header";
-import BodyCenter from "./components/BodyCenter";
 
 export default function Home() {
   return (

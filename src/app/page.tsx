@@ -12,7 +12,6 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
       </Head>
       <Header />
-      <BodyCenter />
     </main>
   )
 }

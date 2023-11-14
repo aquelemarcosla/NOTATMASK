@@ -6,3 +6,9 @@ main {
     background: rgb(0,3,16);
 background: linear-gradient(180deg, rgba(0,3,16,1) 0%, rgba(0,20,49,1) 41%, rgba(0,38,125,1) 100%);
 }
+
+@layer base {
+    html {
+        font-family: monospace;
+    }
+}

@@ -1,14 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Mono&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 main {
     background: rgb(0,3,16);
-background: linear-gradient(180deg, rgba(0,3,16,1) 0%, rgba(0,20,49,1) 41%, rgba(0,38,125,1) 100%);
-}
-
-@layer base {
-    html {
-        font-family: monospace;
-    }
+    background: linear-gradient(180deg, rgb(0, 6, 32) 0%, rgba(0,20,49,1) 41%, rrgb(0, 7, 24)100%);
 }

@@ -19,20 +19,16 @@ export default function Header() {
         }
     }, []);
 
+    const irProjetos = () => {
+      document.getElementById('Projetos')?.scrollIntoView({ behavior: 'smooth' });
+    };
 
     return (
-      <div className={`
-      flex w-full h-[65px] justify-between fixed p-5 
-      ${scrolled ? 'bg-white bg-opacity-10' : ''}
-      `} >
-        <Link href="/" >
-          <Image className={`
-            m -mt-3 
-          `}
-
-          src="/logo.png" alt="Logo" width={50} height={50}></Image>
-        </Link>
-        <Link href="https://github.com/aquelemarcosla" className="flex text-white font-bold">
+      <div className={`flex w-full h-[65px] justify-end fixed p-5 ${scrolled ? 'bg-white bg-opacity-5' : ''}`} >
+        <div className="mr-5">
+          <button onClick={irProjetos} className="outline-none text-lg text-white font-bold ">Projetos</button>
+        </div>
+        <Link href="https://github.com/aquelemarcosla" className="flex text-white font-bold text-lg">
           <p>GitHub</p>
         </Link>
       </div>

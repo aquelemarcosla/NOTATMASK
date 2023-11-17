@@ -12,7 +12,7 @@ export default function BodyCenter() {
                 Tenho 19 e estou cursando ciência da computação pela PUC Minas
                 a melhor universidade católica do mundo. 
                 Desenvolvi este site do absoluto zero, no intuito de demonstrar meus conhecimentos
-                práticos em programação. Espero que gostem." 
+                práticos em programação, me considero um desenvolvedor full-stack. Espero que gostem." 
             />
         </div>
     )

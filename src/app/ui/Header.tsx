@@ -1,7 +1,7 @@
-"use client"; 
-import Link from "next/link";
+'use client'
+
 import { useState, useEffect } from "react";
-import Image from "next/image";
+import Menu from "../components/Menu";
 
 export default function Header() {
     const [scrolled, setScrolled] = useState(false);
@@ -25,12 +25,7 @@ export default function Header() {
 
     return (
       <div className={`flex w-full h-[65px] justify-end fixed p-5 ${scrolled ? 'bg-white bg-opacity-5' : ''}`} >
-        <div className="mr-5">
-          <button onClick={irProjetos} className="outline-none text-lg text-white font-bold ">Projetos</button>
-        </div>
-        <Link href="https://github.com/aquelemarcosla" className="flex text-white font-bold text-lg">
-          <p>GitHub</p>
-        </Link>
+        <Menu />
       </div>
     );
   }

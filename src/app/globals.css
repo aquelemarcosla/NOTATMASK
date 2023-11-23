@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-main {
+#main {
     background: rgb(0,3,16);
     background: linear-gradient(180deg, rgb(0, 12, 66) 0%, rgb(0, 18, 46) 45%, rgb(0, 14, 34)100%);
 }

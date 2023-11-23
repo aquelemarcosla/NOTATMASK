@@ -1,4 +1,4 @@
-import Apresentation from "./Apresentation";
+import Apresentation from "../components/Info";
 
 export default function BodyCenter() {
     return(
